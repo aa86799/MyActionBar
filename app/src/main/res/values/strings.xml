@@ -3,4 +3,14 @@
     <string name="title_activity_main">MainActivity</string>
 
     <string name="action_settings">Settings</string>
+    <string name="action_search">搜索</string>
+    <string name="action_add">add</string>
+    <string name="action_share">share</string>
+    <string name="action_call">call</string>
+    <string name="title_activity_tab4_action_bar">Tab4ActionBarActivity</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="title_activity_list4_action">List4ActionActivity</string>
+    <string name="tab_actionbar">以Tab风格显示ActionBar</string>
+    <string name="list_actionbar">以List风格显示ActionBar</string>
 </resources>

@@ -9,3 +9,7 @@
 gradle**
 *.iml
 .idea
+actionbarsherlock/pom.xml
+actionbarsherlock/lint.xml
+actionbarsherlock/.project
+actionbarsherlock/.classpath

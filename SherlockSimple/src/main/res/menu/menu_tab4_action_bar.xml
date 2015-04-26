@@ -1,0 +1,21 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.stone.actionbar.Tab4ActionBarActivity2">
+    <item
+        android:id="@+id/action_settings"
+        android:orderInCategory="100"
+        android:title="@string/action_settings"
+        android:showAsAction="never" />
+    <item
+        android:icon="@android:drawable/ic_menu_edit"
+        android:orderInCategory="5"
+        android:title="edit"
+        android:showAsAction="collapseActionView|ifRoom" />
+
+    <item
+        android:id="@+id/action_day"
+        android:icon="@android:drawable/ic_menu_day"
+        android:orderInCategory="4"
+        android:title="day"
+        android:showAsAction="ifRoom" />
+</menu>

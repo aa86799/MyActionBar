@@ -1,21 +1,53 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.stone.actionbar" >
+    package="com.stone.actionbar">
 
     <application
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
         android:label="@string/app_name"
-        android:theme="@style/AppTheme" >
+        android:theme="@style/AppTheme">
         <activity
             android:name=".MainActivity"
             android:label="@string/app_name"
-            android:theme="@style/Theme.AppCompat.Light">
+            android:theme="@style/MyActionBar">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
+        </activity>
+        <activity
+            android:name=".Tab4ActionBarActivity"
+            android:icon="@mipmap/ic_launcher"
+            android:label="@string/title_activity_tab4_action_bar"
+            android:theme="@style/Theme.AppCompat.Light"
+            android:uiOptions="splitActionBarWhenNarrow" />
+        <activity
+            android:name=".Tab4ActionBarActivity2"
+            android:icon="@mipmap/ic_launcher"
+            android:label="@string/title_activity_tab4_action_bar"
+            android:theme="@android:style/Theme.Holo.Light"
+            android:uiOptions="splitActionBarWhenNarrow" />
+        <activity
+            android:name=".List4ActionActivity"
+            android:icon="@mipmap/ic_launcher"
+            android:label="@string/title_activity_list4_action"
+            android:theme="@style/Theme.AppCompat.Light"
+            android:uiOptions="splitActionBarWhenNarrow">
+            <meta-data
+                android:name="android.support.UI_OPTIONS"
+                android:value="splitActionBarWhenNarrow" />
+        </activity>
+
+        <activity
+            android:name=".List4ActionActivity2"
+            android:icon="@mipmap/ic_launcher"
+            android:label="@string/title_activity_list4_action"
+            android:uiOptions="splitActionBarWhenNarrow">
+            <meta-data
+                android:name="android.support.UI_OPTIONS"
+                android:value="splitActionBarWhenNarrow" />
         </activity>
     </application>
 

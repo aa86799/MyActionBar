@@ -8,9 +8,39 @@
     android:paddingTop="@dimen/activity_vertical_margin"
     tools:context="com.stone.actionbar.MainActivity">
 
-    <TextView
+    <Button
+        android:id="@+id/btn_barVisible"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/app_name" />
+        android:text="显示或隐藏actionBar"
+        android:onClick="barVisible"/>
 
+    <Button
+        android:id="@+id/btn_tab"
+        android:layout_below="@id/btn_barVisible"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="tab"
+        android:text="@string/tab_actionbar" />
+    <Button
+        android:id="@+id/btn_list"
+        android:layout_below="@id/btn_tab"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/list_actionbar"
+        android:onClick="list"/>
+    <TextView
+        android:id="@+id/tv_info"
+        android:layout_below="@id/btn_list"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="系统的actionBar，要注意的地方太多了，不同的Theme，不同的效果；\n
+        使用support-v7，还要用appcompat theme" />
+    <Button
+        android:id="@+id/btn_ActionBarSherlock"
+        android:layout_below="@id/tv_info"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="使用三方lib ActionBarSherlock"
+        android:onClick="actionBarSherlock"/>
 </RelativeLayout>
