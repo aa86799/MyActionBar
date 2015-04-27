@@ -5,7 +5,7 @@
     android:paddingBottom="@dimen/activity_vertical_margin"
     android:paddingLeft="@dimen/activity_horizontal_margin"
     android:paddingRight="@dimen/activity_horizontal_margin"
-    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingTop="30dp"
     tools:context="com.stone.actionbar.MainActivity">
 
     <Button
@@ -36,11 +36,4 @@
         android:layout_height="wrap_content"
         android:text="系统的actionBar，要注意的地方太多了，不同的Theme，不同的效果；\n
         使用support-v7，还要用appcompat theme" />
-    <Button
-        android:id="@+id/btn_ActionBarSherlock"
-        android:layout_below="@id/tv_info"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="使用三方lib ActionBarSherlock"
-        android:onClick="actionBarSherlock"/>
 </RelativeLayout>
