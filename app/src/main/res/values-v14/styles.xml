@@ -6,8 +6,14 @@
 
     </style>
 
-    <style name="MyActionBar" parent="Theme.AppCompat.Light.DarkActionBar">
+    <style name="MyActionBar" parent="Theme.AppCompat.Light">
+        <item name="android:actionBarStyle">@android:style/Theme.Translucent</item>
+        <!--应用兼容v7包的actionbar时，style的属性不要"android"前缀-->
+        <item name="actionBarStyle">@android:style/Theme.Translucent</item>
+
+        <!--Overlay：actionbar会浮在内容区上-->
         <item name="android:windowActionBarOverlay">true</item>
+        <item name="windowActionBarOverlay">true</item>
     </style>
 
 
